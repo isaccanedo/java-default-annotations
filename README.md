@@ -10,19 +10,19 @@ Spring e Hibernate são ótimos exemplos de frameworks que dependem fortemente d
 
 Basicamente, uma anotação atribui metadados extras ao código-fonte ao qual está vinculada. Ao adicionar uma anotação a um método, interface, classe ou campo, podemos:
 
-1 - Informar ao compilador sobre avisos e erros;
-2 - Manipular o código fonte em tempo de compilação;
-3 - Modifique ou examine o comportamento em tempo de execução.
+- Informar ao compilador sobre avisos e erros;
+- Manipular o código fonte em tempo de compilação;
+- Modifique ou examine o comportamento em tempo de execução.
 
 # 3. Anotações integradas em Java
 Agora que revisamos o básico, vamos dar uma olhada em algumas anotações que vêm com o Java principal. Primeiro, existem vários que informam a compilação:
 
-1 - @Override;
-2 - @SuppressWarnings;
-3 - @Deprecated;
-4 - @SafeVarargs;
-5 - @FunctionalInterface;
-6 - @Native.
+- @Override;
+- @SuppressWarnings;
+- @Deprecated;
+- @SafeVarargs;
+- @FunctionalInterface;
+- @Native.
 
 Essas anotações geram ou suprimem avisos e erros do compilador. Aplicá-los consistentemente costuma ser uma boa prática, pois adicioná-los pode evitar erros futuros do programador.
 

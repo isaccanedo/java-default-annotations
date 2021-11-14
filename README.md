@@ -88,11 +88,11 @@ Em seguida, meta-anotações são anotações que podem ser aplicadas a outras a
 
 Por exemplo, essas meta-anotações são usadas para configuração de anotação:
 
-1 - @Target;
-2 - @Retention;
-3 - @Inherited;
-4 - @Documented;
-5 - @Repetível.
+- @Target;
+- @Retention;
+- @Inherited;
+- @Documented;
+- @Repetível.
 
 ### 4.1. @Alvo
 O escopo das anotações pode variar de acordo com os requisitos. Enquanto uma anotação é usada apenas com métodos, outra anotação pode ser consumida com declarações de construtor e campo.
@@ -116,9 +116,9 @@ Usamos a anotação @Retention para dizer onde, no ciclo de vida do nosso progra
 
 Para fazer isso, precisamos configurar @Retention com uma das três políticas de retenção:
 
-1 - RetentionPolicy.SOURCE - visível nem pelo compilador nem pelo tempo de execução;
-2 - RetentionPolicy.CLASS - visível pelo compilador;
-3 - RetentionPolicy.RUNTIME - visível pelo compilador e pelo tempo de execução.
+- RetentionPolicy.SOURCE - visível nem pelo compilador nem pelo tempo de execução;
+- RetentionPolicy.CLASS - visível pelo compilador;
+- RetentionPolicy.RUNTIME - visível pelo compilador e pelo tempo de execução.
 
 Se nenhuma anotação @Retention estiver presente na declaração de anotação, a política de retenção será padronizada como RetentionPolicy.CLASS.
 
